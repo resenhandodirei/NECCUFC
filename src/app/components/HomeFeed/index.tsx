@@ -14,7 +14,7 @@ export default function HomeFeed() {
                 <p className="text-gray-600 mt-3 leading-relaxed">
                   Este é um exemplo de postagem no feed. Adicione aqui uma breve descrição para engajar os leitores.
                 </p>
-                <button className="mt-5 px-5 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-all">
+                <button className="mt-5 px-5 py-2 bg-[#400C0C] text-white font-medium rounded-lg hover:bg-[#BF9411] transition-all">
                   Leia mais
                 </button>
               </div>
