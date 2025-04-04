@@ -2,10 +2,12 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuIt
 import { Bars3Icon, BellIcon, XMarkIcon, ScaleIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'Home', href: '#', current: true },
+  { name: 'Sobre nós', href: '#', current: false },
+  { name: 'Linhas de pesquisa', href: '#', current: false },
+  { name: 'Artigos publicados', href: '#', current: false },
+  { name: 'Search', href: '#', current: false },
+
 ]
 
 function classNames(...classes) {
