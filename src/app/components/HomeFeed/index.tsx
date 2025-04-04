@@ -1,4 +1,5 @@
 import SidebarHighlights from "../SidebarHighlights";
+import SidebarPartners from "../SidebarPartners";
 
 export default function HomeFeed() {
   return (
@@ -6,7 +7,7 @@ export default function HomeFeed() {
       <div className="max-w-6xl w-full flex gap-6">
         {/* Conteúdo do Feed */}
         <div className="flex-1">
-          <h1 className="text-4xl font-extrabold text-gray-900 text-center mb-8">Bem-vindo ao Feed</h1>
+          <h1 className="text-4xl font-semibold text-[#400C0C] text-center mb-8">Últimas notícias publicadas </h1>
 
           <div className="space-y-8">
             {[1, 2, 3, 4].map((post) => (
@@ -26,8 +27,8 @@ export default function HomeFeed() {
           </div>
         </div>
 
-        {/* Sidebar à direita */}
-        <div className="hidden md:block w-1/4 mt-16">
+        {/* Sidebars empilhadas à direita */}
+        <div className="hidden md:flex flex-col w-1/4 gap-4 mt-18">
           <SidebarHighlights />
         </div>
       </div>
